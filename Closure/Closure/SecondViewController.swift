@@ -32,7 +32,7 @@ class SecondViewController: UIViewController {
         self.backClosure = tempClosure
     }
     
-
+    //MARK: - back
     @IBAction func back(_ sender: Any) {
         if self.backClosure != nil {
             let temptext:String? = self.A.text
