@@ -41,12 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let v3 = hasConnditionMatch(arr: arr,value: 60,conndition: {
             return $0 > $1;
         });
-        
         print("v3 value is:\(v3)")
-        
-        
-        
-        
         return true
     }
 

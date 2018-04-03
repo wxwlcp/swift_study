@@ -15,6 +15,7 @@
 		CE44CBB620625AC1008EEF0C /* ArtistryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44CBB520625AC1008EEF0C /* ArtistryUITests.swift */; };
 		CE44CBC720625B39008EEF0C /* ArtistListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44CBC620625B39008EEF0C /* ArtistListViewController.swift */; };
 		CE44CBC920625B54008EEF0C /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44CBC820625B54008EEF0C /* ArtistDetailViewController.swift */; };
+		CE73D76F206B34CD00C315B1 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = CE73D76E206B34CD00C315B1 /* artists.json */; };
 		CEB8E7D4206345FD00EBA0D2 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8E7D3206345FD00EBA0D2 /* Artist.swift */; };
 		CEB8E7D62063462300EBA0D2 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8E7D52063462300EBA0D2 /* Work.swift */; };
 		CEB8E7D8206346C700EBA0D2 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8E7D7206346C700EBA0D2 /* ArtistTableViewCell.swift */; };
@@ -53,6 +54,7 @@
 		CE44CBB720625AC1008EEF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE44CBC620625B39008EEF0C /* ArtistListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListViewController.swift; sourceTree = "<group>"; };
 		CE44CBC820625B54008EEF0C /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
+		CE73D76E206B34CD00C315B1 /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
 		CEB8E7D3206345FD00EBA0D2 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		CEB8E7D52063462300EBA0D2 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 		CEB8E7D7206346C700EBA0D2 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		CE44CB8920625AC0008EEF0C = {
 			isa = PBXGroup;
 			children = (
+				CE73D76E206B34CD00C315B1 /* artists.json */,
 				CE44CB9420625AC0008EEF0C /* Artistry */,
 				CE44CBA920625AC1008EEF0C /* ArtistryTests */,
 				CE44CBB420625AC1008EEF0C /* ArtistryUITests */,
@@ -273,6 +276,7 @@
 			files = (
 				CE44CBA020625AC1008EEF0C /* LaunchScreen.storyboard in Resources */,
 				CE44CB9D20625AC1008EEF0C /* Assets.xcassets in Resources */,
+				CE73D76F206B34CD00C315B1 /* artists.json in Resources */,
 				CE44CB9B20625AC1008EEF0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
